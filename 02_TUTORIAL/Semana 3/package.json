@@ -1,0 +1,15 @@
+{
+  "name": "semana-3",
+  "version": "1.0.0",
+  "description": "Esta etapa tem por objetivo mostrar como aplicar Javascript para incluir scripts com lógica algorítmica na sua aplicação web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
