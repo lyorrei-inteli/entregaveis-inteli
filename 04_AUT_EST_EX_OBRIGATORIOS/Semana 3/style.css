@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to right bottom, #FCFCFC, #808782); */
+    position: relative;
+}
+
+.container {
+    width: 40rem;
+    /* height: 40rem; */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+
+    border-radius: 3px;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+}
+
+.velocityLabel {
+    font-size: 2.4rem;
+    display: block;
+    color: #000;
+}
+
+.velocityInput {
+    padding: 1rem 1.5rem;
+    color: #000;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    border-bottom: 1px solid rgb(49, 115, 159);
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    background-color: rgb(49, 115, 159);
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+.answerContainer {
+    width: 40rem;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+
+    border-radius: 3px;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.title {
+    font-size: 2.4rem;
+    display: block;
+    color: #000;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+}
