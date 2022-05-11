@@ -6,6 +6,7 @@ const path = require('path')
 
 const hostname = '127.0.0.1';
 const port = 3031;
+
 app.use(express.static(path.join(__dirname + "/../frontend")));
 
 app.get("/", (req, res) => {
