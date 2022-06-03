@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercício 5</title>
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../global/global.css" />
+    </head>
+    <body>
+        <div class="staticContainer">
+            <div class="input-group">
+                <label for="input1">Quantidade de alunos</label>
+                <input type="text" id="input1" />
+            </div>
+            <button class="createFields btn" type="button">Criar campos</button>
+
+            <div class="inputGrid" id="inputGrid"></div>
+
+            <button class="btn calcularBtn" type="button">Calcular médias</button>
+            <!-- <div class="input-group">
+                <label for="input1">Nota da prova</label>
+                <input type="text" id="input2" />
+            </div>
+            <div class="input-group">
+                <label for="input1">Nota do trabalho</label>
+                <input type="text" id="input3" />
+            </div> -->
+
+            <div class="resultContainer"></div>
+        </div>
+
+        <!-- Jquery -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Script -->
+        <script src="./index.js"></script>
+    </body>
+</html>
