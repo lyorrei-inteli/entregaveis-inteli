@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(to right bottom, #5d737e, #111d13);
+    min-height: 100vh;
+}
+
+.container {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 3px;
+}
+
+.input-group {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.input-group > input {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #333;
+}
+
+.radio-group {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 1rem;
+    font-size: 2rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 1.2rem 0;
+    text-align: center;
+    outline: none;
+    background-color: #5d737e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.resultContainer {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.displayFlex {
+    display: flex;
+    grid-gap: 2rem;
+}
+
+.staticContainer {
+    width: 40%;
+    margin: 4rem auto;
+    padding: 4rem;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.inputGrid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); */
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-gap: 2rem;
+}
+
+.aluno h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.calcularBtn {
+    display: none;
+}
+
+.errorAlert {
+    color: red;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
